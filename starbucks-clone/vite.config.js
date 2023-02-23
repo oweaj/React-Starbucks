@@ -2,8 +2,7 @@ const { defineConfig } = require("vite");
 const reactPlugin = require("@vitejs/plugin-react");
 import { resolve } from "node:path";
 
-/** @type {import('vite').UserConfig} */
-module.exports = defineConfig({
+export default defineConfig({
   plugins: [reactPlugin()],
   resolve: {
     alias: [{ find: "@", replacement: resolve(__dirname, "./src") }],
