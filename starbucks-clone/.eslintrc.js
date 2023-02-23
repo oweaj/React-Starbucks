@@ -9,7 +9,16 @@ module.exports = {
       version: "detect",
     },
   },
-  extends: ["eslint:recommended", "plugin:react/recommended", "plugin:react/jsx-runtime", "eslint:recommended", "plugin:import/recommended", "plugin:import/typescript", "plugin:react-hooks/recommended", "plugin:jsx-a11y/recommended"],
+  extends: [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "eslint:recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
+  ],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
