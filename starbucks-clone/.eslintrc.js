@@ -64,7 +64,6 @@ module.exports = {
       },
     ],
     "no-console": "warn",
-    "react/prop-types": "off",
     "react/button-has-type": "warn",
     "react/self-closing-comp": [
       "warn",
