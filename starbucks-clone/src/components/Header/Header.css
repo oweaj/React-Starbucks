@@ -1,0 +1,113 @@
+@import url(@/assets/css/fontello.css);
+
+.nav-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 1.875rem;
+  gap: 30px;
+}
+
+.logo img {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.navigator {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.menu {
+  display: flex;
+  gap: 25px;
+}
+
+.menuItem {
+  display: inline-block;
+  height: 100%;
+  padding: 2.187rem 0;
+  font-weight: 700;
+}
+
+.menuItem:hover {
+  color: #008248;
+}
+
+.is-active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  display: block;
+  bottom: 0;
+  border: 3px solid #008248;
+}
+
+.member {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 0;
+  gap: 10px;
+}
+
+.member li {
+  margin: 0 0.3125rem;
+  font-weight: 700;
+}
+
+.findStore {
+  margin-right: 1.25rem;
+}
+
+.findStore:hover {
+  color: #008248;
+}
+
+.findStore::before {
+  content: "\e805";
+  font-family: "fontello";
+  font-weight: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1rem;
+  margin-right: 0.2rem;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1rem;
+  margin-left: 0.2rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.signIn,
+.join,
+.greenRound {
+  border: 1px solid #212121;
+  padding: 0.5rem 0.937rem;
+  border-radius: 50px;
+}
+
+.signIn:hover {
+  background-color: #eee;
+  transition: 0.3s;
+}
+
+.join {
+  background-color: #212121;
+  color: #fff;
+}
+
+.join:hover,
+.greenRound:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}

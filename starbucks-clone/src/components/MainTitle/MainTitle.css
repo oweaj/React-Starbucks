@@ -1,0 +1,20 @@
+.mainTitleWrapper {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #1e3932;
+}
+
+.mainTitle {
+  position: relative;
+  left: 8.125rem;
+  padding: 15px 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.mainTitle sup {
+  font-size: 0.5rem;
+}

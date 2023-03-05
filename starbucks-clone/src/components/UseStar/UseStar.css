@@ -1,0 +1,54 @@
+.useStar {
+  height: 50vh;
+}
+
+.useStarTitle {
+  padding: 50px 0 50px;
+  text-align: center;
+}
+
+.useStarTitle {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.topPannel {
+  text-align: center;
+  background-color: #f1f8f6;
+}
+
+.tabList {
+}
+
+.tab {
+  font-size: 24px;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.bottomPannel {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+  background-color: #d4e9e2;
+  gap: 35px;
+}
+
+.tabPannelInfo {
+  width: 25%;
+  line-height: 1.5;
+}
+
+.tabPannelTitle {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.tabPannelImg {
+  width: 350px;
+  height: 200px;
+}

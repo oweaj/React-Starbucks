@@ -1,9 +1,18 @@
 import { useState } from "react";
 import "./App.css";
-import { Header } from "@/components";
+import { Header, MainTitle, Rewards, Start, UseStar, Benefit } from "@/components";
 
 function App() {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <MainTitle />
+      <Rewards />
+      <Start />
+      <UseStar />
+      <Benefit />
+    </>
+  );
 }
 
 export default App;

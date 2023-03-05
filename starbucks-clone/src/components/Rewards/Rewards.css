@@ -1,0 +1,36 @@
+.rewards {
+  position: relative;
+  height: 100vh;
+  background: url(@/assets/images/xl-hero-desktop_2021.png) no-repeat center / cover #d4e9e2;
+}
+
+.rewardsContents {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.25rem;
+}
+
+.rewardsContentTitle {
+  font-size: 2.375rem;
+  margin-bottom: 0.937rem;
+}
+
+.greenRound {
+  display: inline-block;
+  margin-top: 1.5625rem;
+  margin-bottom: 0.937rem;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #008248;
+  border-color: #008248;
+  color: #fff;
+}
+
+.rewardsContentSub a:last-child {
+  text-decoration: underline;
+}
+
+.rewardsContentSub a:last-child:hover {
+  text-decoration: none;
+}

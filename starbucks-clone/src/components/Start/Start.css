@@ -1,0 +1,37 @@
+.start {
+  height: 60vh;
+}
+
+.startTitleBox {
+  padding: 100px 0 50px;
+  text-align: center;
+}
+
+.startTitle {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.startWay {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.starWay-textWrapper {
+  width: 25%;
+  text-align: center;
+}
+
+.startWayImg {
+  width: 45px;
+  height: 45px;
+}
+
+.startWayTitle {
+  font-size: 19px;
+  font-weight: 600;
+  margin: 15px 0;
+}
