@@ -49,17 +49,17 @@ export function Header() {
         <nav className="navigator">
           <h2 className="a11y-hidden">메인 메뉴</h2>
           <ul className="menu">
-            {leftTabList.map((item) => (
-              <li className="menuItem" key={item.id}>
-                <a href="#">{item.tabTitle}</a>
+            {leftTabList.map(({ id, tabTitle, className }) => (
+              <li className="menuItem" key={id}>
+                <a href="#">{tabTitle}</a>
               </li>
             ))}
           </ul>
           <ul className="member">
-            {rightTabList.map((item) => (
-              <li key={item.id}>
-                <a href="#" className={item.className}>
-                  {item.tabTitle}
+            {rightTabList.map(({ id, tabTitle, className }) => (
+              <li key={id}>
+                <a href="#" className={className}>
+                  {tabTitle}
                 </a>
               </li>
             ))}

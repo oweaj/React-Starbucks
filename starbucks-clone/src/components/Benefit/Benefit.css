@@ -1,3 +1,22 @@
 .benefit {
   height: 60vh;
 }
+
+.benefitImg {
+  width: 100px;
+  height: 100px;
+}
+
+.benefitItem {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.benefitItem a {
+  color: #0cc844;
+  text-decoration: underline;
+}
+
+.benefitItem a:hover {
+  text-decoration: none;
+}

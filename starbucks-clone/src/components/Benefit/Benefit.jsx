@@ -37,14 +37,12 @@ export function Benefit() {
       </p>
       <ul className="benefitList">
         <li>
-          {beneFitItem.map((item) => (
-            <article className="benefitItem" key={item.id}>
-              <h4 className="benefitItemTitle">{item.title}</h4>
-              <p className="benefitItemBrief">{item.content}</p>
-              <a href="" className="learnMore">
-                Learn more
-              </a>
-              <img src={item.img} alt={item.text} className="benefitImg" />
+          {beneFitItem.map(({ id, text, title, content, img }) => (
+            <article className="benefitItem" key={id}>
+              <img className="benefitImg" src={img} alt={text} />
+              <h4 className="benefitItemTitle">{title}</h4>
+              <p className="benefitItemBrief">{content}</p>
+              <a href="#">Learn more</a>
             </article>
           ))}
         </li>

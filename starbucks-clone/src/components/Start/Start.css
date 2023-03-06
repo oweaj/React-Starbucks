@@ -35,3 +35,12 @@
   font-weight: 600;
   margin: 15px 0;
 }
+
+.startWayBrief a {
+  color: #0cc844;
+  text-decoration: underline;
+}
+
+.startWayBrief a:hover {
+  text-decoration: none;
+}

@@ -1,9 +1,9 @@
 .useStar {
-  height: 50vh;
+  height: 55vh;
 }
 
 .useStarTitle {
-  padding: 50px 0 50px;
+  padding: 50px 0;
   text-align: center;
 }
 
@@ -32,7 +32,7 @@
   flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
-  padding: 30px 0;
+  padding: 20px 0;
   background-color: #d4e9e2;
   gap: 35px;
 }

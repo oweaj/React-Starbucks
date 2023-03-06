@@ -8,15 +8,14 @@ const gettingStartedList = [
     id: 1,
     img: Started1,
     title: "Create an account",
-    content: `To get started, join now. You can also join in the app to get access to
-    the full range of Starbucks Rewards benefits.`,
+    content: `To get started, <a href="#">join now.</a> You can also <a href="#">join in the app</a> to get access to the full range of Starbucks Rewards benefits.`,
   },
   {
     id: 2,
     img: Started2,
     title: "Order and pay how you’d like",
     content: `Use cash, credit/debit card or save some time and pay right through the app. You’ll collect Stars all
-    ways. Learn how`,
+    ways. <a href="#">Learn how</a>`,
   },
   {
     id: 3,
@@ -37,11 +36,11 @@ export function Start() {
       <ol className="startNumber">
         <li>
           <article className="startWay">
-            {gettingStartedList.map((item) => (
-              <div className="starWay-textWrapper" key={item.id}>
-                <img className="startWayImg" src={item.img} alt={item.id} />
-                <h4 className="startWayTitle">{item.title}</h4>
-                <div className="startWayBrief">{item.content}</div>
+            {gettingStartedList.map(({ id, img, title, content }) => (
+              <div className="starWay-textWrapper" key={id}>
+                <img className="startWayImg" src={img} alt={id} />
+                <h4 className="startWayTitle">{title}</h4>
+                <div className="startWayBrief" dangerouslySetInnerHTML={{ __html: content }}></div>
               </div>
             ))}
           </article>
