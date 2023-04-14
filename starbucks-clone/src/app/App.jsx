@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { Header, MainTitle, Rewards, Start, UseStar, Benefit } from "@/components";
+import { Header, MainTitle, Rewards, Start, UseStar, Benefit, Footer } from "@/components";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Start />
       <UseStar />
       <Benefit />
+      <Footer />
     </>
   );
 }
