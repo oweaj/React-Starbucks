@@ -2,21 +2,52 @@
   height: 60vh;
 }
 
-.benefitImg {
+.benefit-info {
+  width: 550px;
+  padding: 80px 0 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.benefitTitle {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.benefitWay {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.item {
+  width: 25%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.benefitWayImg {
   width: 100px;
   height: 100px;
 }
 
-.benefitItem {
-  display: flex;
-  flex-flow: row nowrap;
+.benefitWayTitle {
+  font-size: 19px;
+  font-weight: 600;
+  margin: 15px 0;
 }
 
-.benefitItem a {
+.benefitWayContent {
+  margin-bottom: 5px;
+}
+
+.item a {
   color: #0cc844;
   text-decoration: underline;
 }
 
-.benefitItem a:hover {
+.item a:hover {
   text-decoration: none;
 }

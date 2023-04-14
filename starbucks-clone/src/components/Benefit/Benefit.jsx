@@ -30,21 +30,25 @@ const beneFitItem = [
 export function Benefit() {
   return (
     <section className="benefit inner">
-      <h3 className="benefitTitle">Endless Extras</h3>
-      <p className="benefitSub">
-        Joining Starbucks® Rewards means unlocking access to exclusive benefits. Say hello to easy ordering, tasty
-        Rewards and—yes, free coffee.
-      </p>
+      <div className="benefit-info">
+        <h3 className="benefitTitle">Endless Extras</h3>
+        <p className="benefitSub">
+          Joining Starbucks® Rewards means unlocking access to exclusive benefits. Say hello to easy ordering, tasty
+          Rewards and—yes, free coffee.
+        </p>
+      </div>
       <ul className="benefitList">
         <li>
-          {beneFitItem.map(({ id, text, title, content, img }) => (
-            <article className="benefitItem" key={id}>
-              <img className="benefitImg" src={img} alt={text} />
-              <h4 className="benefitItemTitle">{title}</h4>
-              <p className="benefitItemBrief">{content}</p>
-              <a href="#">Learn more</a>
-            </article>
-          ))}
+          <div className="benefitWay">
+            {beneFitItem.map(({ id, text, title, content, img }) => (
+              <div className="item" key={id}>
+                <img className="benefitWayImg" src={img} alt={text} />
+                <h4 className="benefitWayTitle">{title}</h4>
+                <p className="benefitWayContent">{content}</p>
+                <a href="#">Learn more</a>
+              </div>
+            ))}
+          </div>
         </li>
       </ul>
     </section>
