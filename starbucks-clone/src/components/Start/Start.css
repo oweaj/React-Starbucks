@@ -2,14 +2,14 @@
   height: 60vh;
 }
 
-.startTitleBox {
-  padding: 100px 0 50px;
+.start-info {
+  padding: 80px 0 50px;
   text-align: center;
 }
 
 .startTitle {
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 15px;
 }
 
@@ -20,7 +20,7 @@
   gap: 30px;
 }
 
-.starWay-textWrapper {
+.item {
   width: 25%;
   text-align: center;
 }
@@ -36,11 +36,11 @@
   margin: 15px 0;
 }
 
-.startWayBrief a {
+.startWayContent a {
   color: #0cc844;
   text-decoration: underline;
 }
 
-.startWayBrief a:hover {
+.startWayContent a:hover {
   text-decoration: none;
 }

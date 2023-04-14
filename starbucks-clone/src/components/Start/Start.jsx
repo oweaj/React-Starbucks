@@ -29,23 +29,23 @@ const gettingStartedList = [
 export function Start() {
   return (
     <section className="start inner">
-      <div className="startTitleBox">
+      <div className="start-info">
         <h3 className="startTitle">Getting started is easy</h3>
         <p className="startSub">Earn Stars and get rewarded in a few easy steps.</p>
       </div>
-      <ol className="startNumber">
+      <ul className="startNumber">
         <li>
-          <article className="startWay">
+          <div className="startWay">
             {gettingStartedList.map(({ id, img, title, content }) => (
-              <div className="starWay-textWrapper" key={id}>
+              <div className="item" key={id}>
                 <img className="startWayImg" src={img} alt={id} />
                 <h4 className="startWayTitle">{title}</h4>
-                <div className="startWayBrief" dangerouslySetInnerHTML={{ __html: content }}></div>
+                <p className="startWayContent" dangerouslySetInnerHTML={{ __html: content }}></p>
               </div>
             ))}
-          </article>
+          </div>
         </li>
-      </ol>
+      </ul>
     </section>
   );
 }
