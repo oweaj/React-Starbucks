@@ -32,7 +32,7 @@ export function UseStar() {
         <div className="tabList">
           {tabList.map((item) => (
             <button className="tab" key={item.id}>
-              {item.content}⭐️
+              <span>{item.content}⭐️</span>
             </button>
           ))}
         </div>
