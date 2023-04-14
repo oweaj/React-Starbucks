@@ -4,3 +4,4 @@ export { Rewards } from "./Rewards/Rewards";
 export { Start } from "./Start/Start";
 export { UseStar } from "./UseStar/UseStar";
 export { Benefit } from "./Benefit/Benefit";
+export { Footer } from "./Footer/Footer";
